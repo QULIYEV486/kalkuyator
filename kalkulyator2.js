@@ -1,11 +1,3 @@
-let btnquery = document.querySelector("#btn")
-
-
-
-
-
-
-
 document.getElementById("btn-1").addEventListener("click", (e) => {
     console.log(e.target.innerText)
     document.getElementById("btn").innerText += "+"
@@ -122,6 +114,46 @@ document.getElementById("btn-20").addEventListener("click", (e) => {
     else if(operator == ":"){
         document.getElementById("btn").innerText =first /second
 
-    }
-    
+    } 
+
 })
+
+
+
+    
+    
+    // let a = document.getElementById("btn").innerText
+    // let displayValue = 0;
+    // let firstValue = null;
+    // let operator = null;
+    // let waitingForSecondValue = false;
+    // function handleOprataor(operator){
+    //     const value = parseFloat(displayValue);
+    //     if(operator && waitingForSecondValue){
+    //         operator = nextOperator;
+    //         return;
+    //     }
+
+    //     if( firstValue === null){
+    //         firstValue = value;
+    //     }else if(operator){
+    //         const result = calculate(firstValue, value, operator)
+    //         displayValue = String(result);
+    //         firstValue =  result;
+    //     }
+    // }
+    // function sp(first , second, operator){
+    //     if(operator ==='+'){
+    //         return first + second;
+    //     }else if (operator ==='-'){
+    //         return first - second;
+    //     }else if (operator === '*'){
+    //         return first * second;
+    //     }else if (operator === '/'){
+    //         return first / second;
+    //     }
+    //     return second;
+
+    // }
+                
+    
